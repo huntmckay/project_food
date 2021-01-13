@@ -13,12 +13,16 @@ Ingredient_amount = Recipe_elem.find('p', class_='sc-iCoHVE sc-fujyUd sc-ljpbHA 
 Ingredient_elem = Recipe_elem.find('div', class_='sc-iCoHVE sc-fujyUd sc-jxFGMa inZljn jALVaM mYmiW')
 
 
-grab_amount_class = ''
-grab_unit_class = ''
-grab_name_class = ''
+# print(str(Recipe_elem))
+grab_amount_class = re.findall("<div class=\"(.*)\">", str(Recipe_elem))
+
+print(grab_amount_class)
+
+# grab_unit_class = ''
+# grab_name_class = ''
 
 # print(Recipe_elem.prettify())
-print(Ingredient_amount, Ingredient_elem)
+# print(Ingredient_amount, Ingredient_elem)
 
 # match = soup.title.text # use this to get recipe name
 # print(match)
