@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import re
 
-URL = 'https://happymoneysaver.com/cilantro-lime-chicken/'
+URL = 'https://www.thewholesomedish.com/the-best-classic-chili/'
 # URL = 'https://happymoneysaver.com/freezer-chicken-taquitos-with-cream-cheese/'
 # URL = 'https://www.budgetbytes.com/chicken-mandarin-salad-simple-sesame-dressing/'
 
@@ -14,7 +14,6 @@ soup = BeautifulSoup(page.content, 'html.parser')
 recipe_elems = soup.find_all('li', class_='wprm-recipe-ingredient')
 ingredients = len(recipe_elems)
 x = 0
-big_dict = {}
 
 while x < ingredients:
     
@@ -45,12 +44,3 @@ while x < ingredients:
 
     print(amount,unit,name) 
     x += 1
-
-
-
-
-
-    big_dict = { 'chicken':2.5 }
-
-    2.5 lbs
-
