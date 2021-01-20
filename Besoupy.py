@@ -21,4 +21,11 @@ for child in list_of_ingredients.children:
     # print(length_of_list)
     item = child.text.split(' ')
 
-    print(child.text.split(' '))
+    # evaluate the number
+    # then compare check to see if it failed the eval because its a string
+    # then add index_0 and index_1
+    if type(eval(item[0])) == int or float : print('yeeyee')
+    elif type(eval(item[0])) != int or float : print('naynay')
+
+
+    # print(child.text.split(' '))
