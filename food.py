@@ -39,10 +39,26 @@ class Recipe:
 ing_1 = Recipe('1', 'Cups', 'Cheddar')
 ing_2 = Recipe('1', 'Cups', 'Cheddar')
 
-ing_str_1 = '1-cups-cheddar'
-ing_str_2 = '2-tbsp-soy sauce'
-ing_str_3 = '5.5-lbs-chicken'
-ing_str_4 = '1/2-cups-milk'
+# ing_str_1 = '1-cups-cheddar'
+# ing_str_2 = '2-tbsp-soy sauce'
+# ing_str_3 = '5.5-lbs-chicken'
+# ing_str_4 = '1/2-cups-milk'
+
+ing_str_1 = 1, 'tablespoon', 'olive', 'oil'
+# [1, 'medium', 'yellow', 'onion', '-diced']
+# [1, 'pound', '90%', 'lean', 'ground', 'beef']
+# [2.5, 'tablespoons', 'chili', 'powder']
+# [2, 'tablespoons', 'ground', 'cumin']
+# [2, 'tablespoons', 'granulated', 'sugar']
+# [2, 'tablespoons', 'tomato', 'paste']
+# [1, 'tablespoon', 'garlic', 'powder']
+# [1.5, 'teaspoons', 'salt']
+# [0.5, 'teaspoon', 'ground', 'black', 'pepper']
+# [0.25, 'teaspoon', 'ground', 'cayenne', 'pepper*', '-optional']
+# [1.5, 'cups', 'beef', 'broth']
+# [1, '(15', 'oz.)', 'can', 'petite', 'diced', 'tomatoes']
+# [1, '(16', 'oz.)', 'can', 'red', 'kidney', 'beans,', 'drained', 'and', 'rinsed']
+# [1, '(8', 'oz.)', 'can', 'tomato', 'sauce']
 
 # repr(ing_1)
 # str(ing_1)

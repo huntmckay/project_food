@@ -12,9 +12,7 @@ soup = BeautifulSoup(URL.content, 'lxml')
 list_of_ingredients = soup.find('ul', class_='wprm-recipe-ingredients')
 
 
-# ingred_amount = list_of_ingredients.find('span', class_='wprm-recipe-ingredient-amount')
-# ingred_unit = list_of_ingredients.find('span', class_='wprm-recipe-ingredient-unit')
-# ingred_name = list_of_ingredients.find('span', class_='wprm-recipe-ingredient-name')
+
 for child in list_of_ingredients.children:
     length_of_list = len(list_of_ingredients)
 
@@ -32,10 +30,15 @@ for child in list_of_ingredients.children:
         item[0] = (eval(item[0]) + eval(item[1]))
         remove_index_1 = item.pop(1)
         print(item)
-        print('removed', remove_index_1)
+        # print('removed', remove_index_1) # future debug
         
         # print('this is new item zero', '-', item[0]) #future debug
     except (NameError, SyntaxError):
         item[0] = eval(item[0])
         print(item[0:])
     # print(child.text.split(' '))
+
+    #this is how i want the class output to be
+    ingred_amount = item[0]
+    ingred_unit = item[1]
+    ingred_name = item[2:]
