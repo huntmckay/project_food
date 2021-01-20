@@ -11,8 +11,6 @@ soup = BeautifulSoup(URL.content, 'lxml')
 
 list_of_ingredients = soup.find('ul', class_='wprm-recipe-ingredients')
 
-
-
 for child in list_of_ingredients.children:
     length_of_list = len(list_of_ingredients)
 
