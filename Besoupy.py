@@ -30,8 +30,12 @@ for child in list_of_ingredients.children:
     try:
         # print('ITEM_0', '-', item[0], '   ', 'ITEM_1', '-', item[1]) #future debug
         item[0] = (eval(item[0]) + eval(item[1]))
-        print(item[0], item[1:])
+        remove_index_1 = item.pop(1)
+        print(item)
+        print('removed', remove_index_1)
+        
         # print('this is new item zero', '-', item[0]) #future debug
     except (NameError, SyntaxError):
-        print(eval(item[0]), item[1:])
+        item[0] = eval(item[0])
+        print(item[0:])
     # print(child.text.split(' '))
