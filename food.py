@@ -1,34 +1,94 @@
-import os
+from bs4 import BeautifulSoup
+import requests
+import re
+import lxml
+
 class Recipe:
-
-    num_of_ing = 0
-
-    def __init__(self, name):
+    def __init__(self, name, url):
         
-        self._name = name
+        self.Name = name
+
+        self._url = url
         self._items = []
+        self._measure = [
+            'pinch',
+            'cup',
+            'spoon',
+            'can',
+            'tsp',
+            'tbsp',
+            'lb',
+            'pound',
+            'kilo',
+            'gram',
+            'medium',
+            'large',
+            'small',
+            'kg',
+            'oz',
+            'fl'
+        ]
+        self._load_all()
+    
+    def _load_all(self):
+        results = requests.get(self._url)
+        soup = BeautifulSoup(results.content, 'lxml')
+
+        items = soup.find('ul', class_='wprm-recipe-ingredients')
+
+        for i in items.children:
+            item = i.text.split(' ')
+
+                # Here we are going to loop and look for known units of measure
+            ind = 0
+            desc = ''
+            for k in range(0,len(item)):
+                for m in self._measure:
+                    if m in item[k]:
+                        # print(f'position {k} in {item} is a unit of measure')
+                        ind = k
+
+                if ind > 1:
+                    item[1:ind]
+                    for i in item[1:ind]:
+                        desc += i
+
+            if ind == 1:
+                amount = eval(item[0])
+            elif desc != '':
+                amount = eval(item[0])
+            else:
+                amount = (eval(item[0]) + eval(item[1]))
+            measure = item[ind]
+            desc += measure
+            name = item[ind+1:]
+
+            self.addItem(Item(name, amount, measure))
 
     @property
     def Items(self):
         return self._items
 
-    @property.setter
-    def Items(self, o)
+    @Items.setter
+    def Items(self, o):
         if type(o) is not list:
             raise TypeError(f'{type(o)} should be list')
         self._items = o
 
-    def addItems(*args):
-        for i in args:
-            if type(i) is not Item:
-                raise TypeError(f'{type(i)} should be item')
-            self._items.append(i)
+    @property
+    def NumItems(self):
+        return len(self._items)
+
+    def addItem(self, o):
+        if type(o) is not Item:
+            raise TypeError(f'{type(o)} should be item')
+        self._items.append(o)
 
     @property
     def Name(self):
         return self._name
 
-    @property.setter
+    @Name.setter
     def Name(self, o):
         if type(o) is not str:
             raise TypeError(f'{type(o)} should be str')
@@ -72,32 +132,27 @@ class Item:
     def Measure(self):
         return self._measure
 
-    @property.setter
+    @Name.setter
     def Name(self, o):
         if type(o) is not str:
             raise TypeError(f'{type(o)} should be str')
         self._name = o
 
-    @property.setter
+    @Amount.setter
     def Amount(self, o):
         if type(o) is not float:
             raise TypeError(f'{type(o)} should be float')
         self._amount = o
     
-    @property.setter
+    @Measure.setter
     def Measure(self, o):
         if type(o) is not str:
             raise TypeError(f'{type(o)} should be str')
         self._measure = o
 
-ing_1 = Recipe('1', 'Cups', 'Cheddar')
-ing_2 = Recipe('1', 'Cups', 'Cheddar')
-ing_str_1 = 1, 'tablespoon', 'olive', 'oil'
-
-print(Recipe.from_string(ing_str_1).full_ingredient)
-print(Recipe.from_string(ing_str_2).full_ingredient)
-print(Recipe.from_string(ing_str_3).full_ingredient)
-print(Recipe.from_string(ing_str_4).full_ingredient)
-
-class Instructions:
-    pass # watch Python OOP 4 for subclass inheritance when you get back to here
+    def __repr__(self):
+        s = 'Item<('
+        for i in self.__dict__.items():
+            s += f'{i[0]}="{i[1]}", '
+        s += ')>'
+        return s
