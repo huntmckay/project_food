@@ -28,8 +28,11 @@ for child in list_of_ingredients.children:
     # elif type(eval(item[0])) != int or float : print('naynay')
 
     try:
-        print(eval(item[0]) + eval(item[1]))
+        # print(eval(item[0]) + eval(item[1]), item[2:]))
+        print('old item zero', '-', item[0], '   ', 'old item one', '-', item[1])
+        item[0] = (eval(item[0]) + eval(item[1]), item[2:])
+        print('this is new item zero', item[0])
     except (NameError, SyntaxError):
-        print('not a value', item[1])
-
+        print(item[0], item[1:])
+        # print('not a value', item[1])
     # print(child.text.split(' '))
