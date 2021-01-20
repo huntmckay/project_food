@@ -24,8 +24,12 @@ for child in list_of_ingredients.children:
     # evaluate the number
     # then compare check to see if it failed the eval because its a string
     # then add index_0 and index_1
-    if type(eval(item[0])) == int or float : print('yeeyee')
-    elif type(eval(item[0])) != int or float : print('naynay')
+    # if type(eval(item[0])) == int or float : print('yeeyee')
+    # elif type(eval(item[0])) != int or float : print('naynay')
 
+    try:
+        print(eval(item[0]) + eval(item[1]))
+    except (NameError, SyntaxError):
+        print('not a value', item[1])
 
     # print(child.text.split(' '))
