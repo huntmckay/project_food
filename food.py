@@ -48,10 +48,11 @@ class Recipe:
                         # print(f'position {k} in {item} is a unit of measure')
                         ind = k
 
-                if ind > 1:
-                    item[1:ind]
-                    for i in item[1:ind]:
-                        desc += i
+                    # concatenate the descriptor
+            if ind > 1:
+                item[1:ind]
+                for i in item[1:ind]:
+                    desc += i
 
             if ind == 1:
                 amount = eval(item[0])
@@ -60,10 +61,14 @@ class Recipe:
             else:
                 amount = (eval(item[0]) + eval(item[1]))
             measure = item[ind]
-            desc += measure
             name = item[ind+1:]
-
-            self.addItem(Item(name, amount, measure))
+            n = ''
+            for i in name:
+                n += i
+            if desc != '':
+                self.addItem(Item(Name=n, Amount=float(amount), Measure=measure, Descriptor=desc))
+            else:
+                self.addItem(Item(Name=n, Amount=float(amount), Measure=measure))
 
     @property
     def Items(self):
@@ -94,31 +99,19 @@ class Recipe:
             raise TypeError(f'{type(o)} should be str')
         self._name = 0
 
-    
-    
-    @property #allows me to access this method as an attribute
-    def full_ingredient(self):
-        return '{} {} {}'.format(self.amount, self.unit, self.name)
-    
     @classmethod
     def from_string(cls, ing_str):
         amount, unit, name = ing_str.split('-')
         return cls(amount, unit, name)
 
     def __repr__(self):
-        return "Recipe('{}', '{}', '{}')".format(self.amount, self.unit, self.name)
-
-    def __str__(self):
-        return '{} {} {}'.format(int(self.amount), self.unit, self.name)
-
-    def __add__(self, other):
-        return self.amount + other.amount
+        s = 'Recipe<(name="{self.Name}", ingredients="{self.Items}")>'
+        return s
 
 class Item:
-    def __init__(self, name, amount, measure):
-        self._name = name
-        self._amount = amount
-        self._measure = measure
+    def __init__(self, **kwargs):
+        for k, v in kwargs.items():
+            setattr(self, k, v)
 
     @property
     def Name(self):
@@ -127,6 +120,10 @@ class Item:
     @property
     def Amount(self):
         return self._amount
+
+    @property
+    def Descriptor(self):
+        return self._descriptor
     
     @property
     def Measure(self):
@@ -134,20 +131,22 @@ class Item:
 
     @Name.setter
     def Name(self, o):
-        if type(o) is not str:
-            raise TypeError(f'{type(o)} should be str')
+        assert(type(o) is str),f'{o} is not str'
         self._name = o
 
     @Amount.setter
     def Amount(self, o):
-        if type(o) is not float:
-            raise TypeError(f'{type(o)} should be float')
+        assert(type(o) is float or int),f'{o} is not numeric'
         self._amount = o
+
+    @Descriptor.setter
+    def Descriptor(self, o):
+        assert(type(o) is str),f'{o} is not str' 
+        self._descriptor = o
     
     @Measure.setter
     def Measure(self, o):
-        if type(o) is not str:
-            raise TypeError(f'{type(o)} should be str')
+        assert(type(o) is str),f'{o} is not str'
         self._measure = o
 
     def __repr__(self):

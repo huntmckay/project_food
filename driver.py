@@ -5,4 +5,5 @@ url = 'https://www.thewholesomedish.com/the-best-classic-chili/'
 
 r = Recipe('the-best-chili', url)
 
-print(r.Items)
+for i in r.Items:
+    print(i)
