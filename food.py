@@ -64,7 +64,7 @@ class Recipe:
             name = item[ind+1:]
             n = ''
             for i in name:
-                n += i
+                n += i + ' '
             if desc != '':
                 self.addItem(Item(Name=n, Amount=float(amount), Measure=measure, Descriptor=desc))
             else:
@@ -151,7 +151,12 @@ class Item:
 
     def __repr__(self):
         s = 'Item<('
-        for i in self.__dict__.items():
-            s += f'{i[0]}="{i[1]}", '
+        for i in dir(self):
+            if '_' in i:
+                continue
+            try:
+                s += f'{i}="{getattr(self,i)}", '
+            except AttributeError:
+                pass
         s += ')>'
         return s
