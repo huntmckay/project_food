@@ -7,3 +7,4 @@ r = Recipe('the-best-chili', url)
 
 for i in r.Items:
     print(i)
+    print(i)
