@@ -1,0 +1,62 @@
+# Q4 (Winter) 7 day meal plan
+Fruits_that_pair_with_Chicken_and_Turkey = ['Apples', 'Apricots', 'Bananas', 'Citrus', 'Cranberries', 'Currants', 'Grapes', 'Mangoes', 'Oranges', 'Peaches', 'Pears', 'Pomegranates', 'Plums']
+Fruits_that_compliment_Beef = ['Apricots', 'Kiwi', 'Mangoes', 'Orange', 'Peaches', 'Pineapple', 'Plums']
+Fruits_that_go_with_Fish = ['Berries', 'moelons', 'mangoes', 'tropical fruits']
+Fruit_that_Pairs_with_Pork = ['Apples', 'Apricots', 'Cherries', 'Cranberries', 'Currants', 'Figs', 'Mangoes', 'Plums', 'Pineapple', 'Pears', 'Peaches', 'Strawberries']
+How_to_use_Fruit = ['Using fruit salsas','Putting fruit in your salads','Using fruit purees to pair with meat','Adding fruit in your burgers, sandwiches and quesadillas']
+Monday:
+    Name: Vegitarian Pasta Primavera
+    Protien: Chickpeas
+    Vegetable: broccoli, carrot, sweetpeas, onion, yellow pepper, garlic, zuccunni
+    Fruit: 
+    Grain: pasta
+    Dairy: Parmesan 
+    uri: None
+Tuesday:
+    Name: Tacos w/rice
+    Protien: Beef or Fish
+    Vegetable: Tomato, letuce, onion
+    Fruits: mango, pine
+    Grain: Rice, tortilla
+    Dairy: sour cream / greek yogurt
+    uri: None
+Wednesday:
+    Name: Crab Cakes 
+    Protien: Crab
+    Vegetable: Spinich Salad w/nuts, onion
+    Fruits: apples
+    Grain: breadcrumbs, couscous
+    Dairy: goat cheese
+    uri: https://www.delish.com/cooking/recipe-ideas/recipes/a58704/best-crab-cakes-recipe/
+Thursday:
+    Name: take out or slow cooker
+    Protien:
+    Vegetable:
+    Fruits: 
+    Grain: 
+    Dairy:
+    uri:
+Friday:
+    Name: 
+    Protien: Steak
+    Vegetable: asperigus
+    Fruits: 
+    Grain: Risotto
+    Dairy: cheese
+    uri:
+Saturday:
+    Name: pesto chicken
+    Protien:
+    Vegetable: zuccini, red bell pepper, yellow squash, red onion, frozen green peas, 
+    Fruits: 
+    Grain: 
+    Dairy: cheese
+    uri: https://www.budgetbytes.com/wprm_print/55394 
+Sunday:
+    Name: 
+    Protien:
+    Vegetable:
+    Fruits: 
+    Grain: 
+    Dairy:
+    uri:
