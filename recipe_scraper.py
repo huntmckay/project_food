@@ -3,7 +3,7 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = "https://www.cookingclassy.com/wprm_print/40318/"
+url = "https://www.allrecipes.com/recipe/256007/best-scrambled-eggs/"
 resp = requests.get(url)
 def check_url(url,resp):
     
