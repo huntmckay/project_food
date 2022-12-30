@@ -22,24 +22,35 @@ def check_website_support(url):
 
 check_website_support(url)
 
-def check_url(url,resp):
+def check_url(url):
     
     resp = requests.get(url)
     
     if resp.status_code == 200:
         print(f'Url status code: {resp.status_code}')
-        return (True,resp)
+        return (True)
     else:
         print(f'Url status code: {resp.status_code}')
         return (False,) 
 
-if check_url(url,resp) == True:
-     
+
+def scrape_recipe(url):
+    
+    ingredients = []
     soup = BeautifulSoup(resp.text, 'html.parser')
     title = soup.title.get_text()
-    print('success')
-else:
-    print('failed')
+    name = soup.title.name     
+    s = soup.find('div', id="mntl-structured-ingredients_1-0")
+    tags = s.find_all('li')
 
+    print(title)
+    for tag in tags:
+        clean_tag = tag.text.strip('\n')
+        a = clean_tag.split(' ')
+        my_dict = { a[0]:a[1:] }
+        ingredients.append(my_dict)
 
-#breakpoint()
+    for i in ingredients:
+        print(i)
+
+scrape_recipe(url)
