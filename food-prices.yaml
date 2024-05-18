@@ -1,0 +1,151 @@
+items:
+  beans_red:
+    location: shaws
+    item_id: ""
+    quantity: 2
+    measurement: lbs
+    price: "6.98"
+  beef_ground:
+    location: sams
+    item_id: "980290298"
+    quantity: 4.79
+    measurement: lbs
+    price: "20.79"
+  breadcrumbs:
+    location: sams
+    item_id: "467019"
+    quantity: 2
+    measurement: ct
+    price: "8.12"
+  cabbage_red:
+    location: shaws
+    item_id: ""
+    quantity: 5.21
+    measurement: lbs
+    price: "9.33"
+  carrots:
+    location: shaws
+    item_id: ""
+    quantity: 5
+    measurement: lbs
+    price: "4.99"
+  celery:
+    location: shaws
+    item_id: ""
+    quantity: 1
+    measurement: lbs
+    price: "2.99"
+  cheese_sharp cheddar:
+    location: sams
+    item_id: "980064373"
+    quantity: 1
+    measurement: ""
+    price: "5.97"
+  chicken:
+    location: sams
+    item_id: "980205980"
+    quantity: 6.57
+    measurement: lbs
+    price: "17.61"
+  ginger:
+    location: shaws
+    item_id: ""
+    quantity: 1
+    measurement: ct
+    price: "4.99"
+  green_peas:
+    location: shaws
+    item_id: ""
+    quantity: 2
+    measurement: lbs`
+    price: "6.58"
+  honey:
+    location: sams
+    item_id: "990131668"
+    quantity: 48
+    measurement: oz
+    price: "9.98"
+  milk_heavy cream:
+    location: sams
+    item_id: "980134823"
+    quantity: 32
+    measurement: fl oz
+    price: "4.68"
+  multipepper:
+    location: sams
+    item_id: "59846"
+    quantity: 6
+    measurement: ct
+    price: "6.96"
+  onion_sweet:
+    location: sams
+    item_id: "980017889"
+    quantity: 12
+    measurement: ct
+    price: "5.85"
+  onions_green:
+    location: shaws
+    item_id: ""
+    quantity: 3
+    measurement: ct
+    price: "4.47"
+  pasta:
+    location: sams
+    item_id: "980281730"
+    quantity: 6
+    measurement: ct
+    price: "8.52"
+  peanuts:
+    location: shaws
+    item_id: ""
+    quantity: 1
+    measurement: lbs
+    price: "2.99"
+  pork_loin:
+    location: sams
+    item_id: "323513"
+    quantity: 6.14
+    measurement: lbs
+    price: "13.39"
+  rice_50lb bag:
+    location: sams
+    item_id: "980195140"
+    quantity: 150
+    measurement: cups
+    price: "23.98"
+  salad_mix:
+    location: sams
+    item_id: "431710"
+    quantity: 16
+    measurement: oz
+    price: "5.18"
+  tomato_diced:
+    location: sams
+    item_id: "980138431"
+    quantity: 12
+    measurement: ct
+    price: "9.98"
+  tomato_paste:
+    location: sams
+    item_id: "980138431"
+    quantity: 12
+    measurement: ct
+    price: "8.48"
+  tomato_sauce:
+    location: sams
+    item_id: "980138431"
+    quantity: 12
+    measurement: ct
+    price: "9.98"
+  tomato_diced:
+    location: sams
+    item_id: "980248599"
+    quantity: 12
+    measurement: ct
+    price: "9.98"
+  wine_cooking_red:
+    location: sams
+    item_id: "984382"
+    quantity: 3.125
+    measurement: cup
+    price: "9.98"
