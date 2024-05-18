@@ -1,0 +1,84 @@
+name: chicken-alfredo-bake
+description: "its chicken alfredo"
+servings: 4
+ingredients:
+  catagory:
+    meat_and_seafood:
+      chicken_breasts:
+        quantity: 4
+        measurement: lbs
+    oils_and_condiments:
+      olive_oil:
+        quantity: 2
+        measurement: tbsp
+    dairy:
+      butter:
+        quantity: 6
+        measurement: tbsp
+      heavy_cream:
+        quantity: 2
+        measurement: cups
+      cheese_parmesan:
+        quantity: 1
+        measurement: tbsp
+      cheese_italian_shredded:
+        quantity: 2
+        measurement: cups
+    produce:
+      garlic:
+        quantity: 4
+        measurement: cloves
+      broccoli_florets:
+        quantity: 10
+        measurement: oz
+      carrots:
+        quantity: 10
+        measurement: oz
+      peas_green:
+        quantity: 10
+        measurement: oz
+    dry_goods:
+      pasta_rotini:
+        quantity: 8
+        measurement: oz
+      breadcrumbs_panko:
+        quantity: 0.5
+        measurement: cup
+    spices:
+      italian_seasoning:
+        quantity: 0.5
+        measurement: tsp
+      red_pepper_flakes:
+        quantity: 0.5
+        measurement: tsp
+      garlic_powder:
+        quantity: 0.25
+        measurement: tsp
+      salt:
+        quantity: 0.5
+        measurement: tsp
+      black_pepper:
+        quantity: 0.5
+        measurement: tsp
+    beverages:
+      water:
+        quantity: 3
+        measurement: tbsp
+  
+instructions:
+  Parmesan Chicken:
+    - Cut the chicken breasts into 1” chunks. Coat the chicken with 1 tablespoons of oil and season it with the grated Parmesan cheese, Italian seasoning, garlic powder, red pepper flakes, salt, and black pepper.
+    - Heat 1 tablespoons of oil in a large skillet over medium heat. Sear the chicken until the bottom of each piece is brown and the sides start to turn white (about 5 minutes).
+    - Add 3 tablespoons of water to the pan, releasing the chicken pieces from the bottom of the skillet, and flip each one. Continue cooking until the chicken is evenly browned on all sides and fully cooked in the center (about 5 minutes). Remove the chicken from the skillet, leaving behind any stuck-on bits of chicken to flavor the alfredo sauce.
+  Buttered Breadcrumbs:
+    - Melt the butter in a small skillet over medium heat. Once the butter has completely melted, stir in the panko breadcrumbs, Italian seasoning, garlic powder, red pepper flakes, salt, and black pepper.
+    - Toast the breadcrumbs, stirring occasionally, until all the butter is absorbed and the breadcrumbs are toasted and golden but not brown (about 5 minutes).
+    - Transfer the breadcrumbs to a bowl to stop the cooking process and set them aside to cool.
+  Alfredo Sauce:
+    - Melt the butter over medium heat in the same large skillet used to cook the chicken (without wiping it out). Add the minced garlic and sauté until fragrant (about 2 minutes).
+    - Whisk in the heavy cream, Italian seasoning, garlic powder, red pepper flakes, salt, and black pepper. Let it come up to a boil, stirring occasionally (about 5 minutes).
+    - Turn the heat down to low, and add 1.5 cups of shredded cheese a handful at a time, whisking until the cheese is fully melted before adding more (about 5 minutes). The alfredo sauce will continue to thicken as it cools.
+  Assembly:
+    - Preheat the oven to 375℉. Thaw the frozen broccoli in a colander, breaking down any large florets into bite-size pieces. Set aside.
+    - At the same time, boil a large pot of water on high heat. Once the water is rapidly boiling, add the rotini and cook until it is just tender (about 7 minutes). Do not overcook the
+
