@@ -10,7 +10,10 @@ with open(food_prices_file_path) as file:
     food_prices = yaml.load(file, Loader=yaml.FullLoader)
 
 # Open up meal plan weeks work of yamls, append to one yaml in mem
-
+meal_plan = []
+for i in range(1, 8):
+    with open(f'{recipe_dir_path}/week-{meal_plan_week}/day-{i}.yaml') as file:
+        meal_plan.append(yaml.load(file, Loader=yaml.FullLoader))
 # Calculate total cost of meal plan
 
 
