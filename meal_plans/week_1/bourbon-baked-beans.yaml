@@ -1,0 +1,75 @@
+name: bourbon-baked-beans
+url: https://www.thegeneticchef.com/30-minute-bourbon-baked-beans/
+meal: dinner
+description: "30 Minute Bourbon Baked Beans made possible by starting off using canned beans. If you’re looking for a quick and delicious side to set out for cookouts, parties, or gamedays, this is your recipe."
+servings: 8
+ingredients:
+  category:
+    meat_and_seafood:
+      bacon:
+        quantity: 8
+        measurement: slices
+    produce:
+      sweet_onion:
+        quantity: 1.33
+        measurement: large
+    oils_and_condiments:
+      ketchup:
+        quantity: 1.33
+        measurement: cup
+      molasses:
+        quantity: 0.33
+        measurement: cup
+      bourbon:
+        quantity: 0.33
+        measurement: cup
+      dijon_mustard:
+        quantity: 2.67
+        measurement: tbsp
+      worcestershire_sauce:
+        quantity: 1.33
+        measurement: tbsp
+      liquid_smoke:
+        quantity: 0.67
+        measurement: tsp
+      salt:
+        quantity: 1.33
+        measurement: tsp
+      pepper:
+        quantity: 0.67
+        measurement: tsp
+      hot_sauce:
+        quantity: 0.67
+        measurement: tsp
+    dry_goods:
+      pinto_beans:
+        quantity: 2.67
+        measurement: cans
+      navy_beans:
+        quantity: 1.33
+        measurement: cans
+  spices:
+    italian_seasoning:
+      quantity: 0.5
+      measurement: tsp
+    red_pepper_flakes:
+      quantity: 0.5
+      measurement: tsp
+    garlic_powder:
+      quantity: 0.25
+      measurement: tsp
+    salt:
+      quantity: 0.5
+      measurement: tsp
+    black_pepper:
+      quantity: 0.5
+      measurement: tsp
+instructions:
+  - "Preheat oven 400°."
+  - "Heat a large skillet over medium high heat. Add bacon and cook until the fat is rendered and the bacon is browned and almost crisp. Add the onions and cook until golden and softened, about 5 - 8 minutes."
+  - "Stir in the ketchup, molasses, bourbon, mustard, Worcestershire sauce, liquid smoke, salt, pepper, water, and hot sauce."
+  - "Add the beans and stir. Bring it just to a boil then remove from heat. Time to bake..."
+  - "If you’re using an oven safe skillet, place in oven. Otherwise, transfer the beans into a baking dish. Bake the beans, uncovered for 30 minutes until the edges are bubbling and it has a nice thick consistency. If it’s too runny for you, bake another 5 minutes. If you want a dark caramelized top, broil for a minute or two."
+  - "Before serving, I like to mash the beans a bit by pressing down a few times with a spoon. Because these haven’t baked for 7 hours and only 30 minutes, the beans will have a firmer texture. Mashing breaks up some of the beans and gives it the same texture you would expect from longer cooking or baked beans in a can. The beans thicken as it cools."
+notes: "If you want to make this vegetarian, use 2 - 3 tablespoons of a neutral oil in place of the bacon."
+---

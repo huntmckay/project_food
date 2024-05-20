@@ -1,4 +1,5 @@
 name: chicken-alfredo-bake
+meal: dinner
 description: "its chicken alfredo"
 servings: 4
 ingredients:

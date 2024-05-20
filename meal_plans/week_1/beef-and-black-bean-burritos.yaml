@@ -1,0 +1,57 @@
+name: beef-and-black-bean-burritos
+meal: lunch
+description: |
+  These quesadillas are a great way to use up leftover black beans. They are
+  also a great way to get some extra veggies in your diet. Serve with salsa
+  and sour cream.
+servings: 4
+ingredients:
+  catagory:
+    dairy:
+      cheese_shredded:
+        quantity: 2
+        measurement: cups
+    produce:
+      bell_pepper:
+        quantity: 1
+        measurement: ct
+      onion:
+        quantity: 1
+        measurement: ct
+      garlic:
+        quantity: 2
+        measurement: cloves
+      black_beans:
+        quantity: 1
+        measurement: can
+      tortillas:
+        quantity: 8
+        measurement: ct
+    spices:
+      chili_powder:
+        quantity: 1
+        measurement: tsp
+      cumin:
+        quantity: 1
+        measurement: tsp
+      salt:
+        quantity: 0.5
+        measurement: tsp
+      black_pepper:
+        quantity: 0.5
+        measurement: tsp
+    oils_and_condiments:
+      olive_oil:
+        quantity: 2
+        measurement: tbsp
+    dry_goods:
+      salsa:
+        quantity: 1
+        measurement: cup
+      sour_cream:
+        quantity: 0.5
+        measurement: cup
+    meat_and_seafood:
+      chicken:
+        quantity: 1
+        measurement: lbs

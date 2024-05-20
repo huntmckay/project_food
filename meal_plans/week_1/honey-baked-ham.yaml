@@ -1,0 +1,78 @@
+name: honey-baked-ham
+url: https://www.allrecipes.com/recipe/14131/honey-baked-ham/
+meal: dinner
+description: "This is a delicious and easy ham recipe with a glaze that is out of this world. The meat is so tender and juicy, it just melts in your mouth."
+servings: 8
+ingredients:
+  category:
+    meat_and_seafood:
+      ham:
+        quantity: 1
+        measurement: ct
+    dairy:
+      honey:
+        quantity: 0.5
+        measurement: cup
+    produce:
+      onion:
+        quantity: 1
+        measurement: ct
+    spices:
+      cloves:
+        quantity: 8
+        measurement: ct
+      sugar:
+        quantity: 0.75
+        measurement: cup
+      cinnamon:
+        quantity: 1
+        measurement: tsp
+      ginger:
+        quantity: 0.5
+        measurement: tsp
+      cloves:
+        quantity: 0.25
+        measurement: tsp
+      nutmeg:
+        quantity: 0.25
+        measurement: tsp
+      allspice:
+        quantity: 0.25
+        measurement: tsp
+      dry_mustard:
+        quantity: 0.25
+        measurement: tsp
+      cayenne:
+        quantity: 0.25
+        measurement: tsp
+    oils_and_condiments:
+      olive_oil:
+        quantity: 2
+        measurement: tbsp
+      bourbon:
+        quantity: 2
+        measurement: tbsp
+    dry_goods:
+      breadcrumbs:
+        quantity: 0.5
+        measurement: cup
+    produce:
+      carrots:
+        quantity: 10
+        measurement: oz
+instructions:
+  - "Remove ham from refrigerator and let sit at room temperature for at least 30 minutes and up to 2 hours."
+  - "Position the oven rack to lower third of oven."
+  - "Preheat oven to 275℉."
+  - "Mix the honey and bourbon together in a measuring cup."
+  - "Lay out a long piece of heavy duty foil - big enough to cover the ham up the sides on a baking sheet."
+  - "Place two thick slices of onion on the bottom center with the cloves pushed in them. I usually use 8 - 10 but if you like cloves, add more."
+  - "Place the ham on top of the onions flat/cut side down."
+  - "Bring up the sides of the foil around the ham and pour the honey bourbon mixture over the entire top of the ham. The foil will contain the liquid. Wrap the ham up and bake for about 1 ½ - 2 ½ hours depending on size - 12 to 15 minutes/pound."
+  - "Remove the ham from the oven and keep it wrapped until ready to glaze."
+  - "Unwrap ham opening and spreading out the foil to cover the baking sheet and still contain juices so they don’t run out."
+  - "Combine the sugar mixture ingredients and sprinkle all over the top of the ham. It may seem like a lot but use it all because it will mix with the ham/bourbon juices. Get it in between the slices. You can also sprinkle ½ of the mixture, broil it, then sprinkle remaining and broil."
+  - "The rack should be in the lower third of the oven so the ham isn’t too close to the broiler. Broil the ham until the top is golden and crispy and the sugar mixture caramelizes. This should take 3 - 5 minutes. You may want to rotate the pan so every bit gets caramelized. Check and keep an eye on it until it’s golden and bubbling."
+  - "Transfer ham onto a serving platter and pour juices into a small saucepan and heat until it starts to boil. Serve juices alongside ham."
+notes: "This ham can be served at room temperature. After baking it with the honey bourbon mixture, you can set it aside until you're ready to glaze."
+---

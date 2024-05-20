@@ -1,0 +1,28 @@
+name: bacon-lettuce-tomato
+ingredients:
+  category:
+    produce:
+      lettuce:
+        measurement: ct
+        quantity: 1
+      tomato:
+        measurement: ct
+        quantity: 1
+      bacon:
+        measurement: ct
+        quantity: 4
+    dry_goods:
+      bread:
+        measurement: ct
+        quantity: 2
+    oils_and_condiments:
+      mayonnaise:
+        measurement: tbsp
+        quantity: 2
+  spices:
+    salt:
+      measurement: tsp
+      quantity: 0.5
+    pepper:
+      measurement: tsp
+      quantity: 0.5

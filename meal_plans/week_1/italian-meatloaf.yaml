@@ -1,0 +1,64 @@
+name: italian meatloaf
+meal: dinner
+description: "This is an Italian style meatloaf baked in a no-cook tomato sauce and it’s Oh My Goodness so delicious. The sauce is made in a bowl and cooked with the meatloaf, where the flavor from the meat and spices seep into the sauce while it bakes."
+servings: 8
+ingredients:
+  catagory:
+    meat_and_seafood:
+      ground_beef:
+        quantity: 3
+        measurement: lbs
+    dairy:
+      ricotta:
+        quantity: 0.75
+        measurement: cup
+    dry_goods:
+      breadcrumbs:
+        quantity: 0.75
+        measurement: cup
+    produce:
+      parsley:
+        quantity: 3
+        measurement: tbsp
+      ground_peeled_tomatoes:
+        quantity: 28
+        measurement: oz
+    spices:
+      granulated_garlic:
+        quantity: 1
+        measurement: tbsp
+      granulated_garlic:
+        quantity: 1
+        measurement: tsp
+      dehydrated_onion_flakes:
+        quantity: 3
+        measurement: tbsp
+      kosher_salt:
+        quantity: 1
+        measurement: tbsp
+      pepper:
+        quantity: 1
+        measurement: tsp
+      sugar:
+        quantity: 1
+        measurement: tsp
+      kosher_salt:
+        quantity: 1
+        measurement: tsp
+      oregano:
+        quantity: 0.5
+        measurement: tsp
+    extra_virgin_olive_oil:
+      quantity: 2
+      measurement: tbsp
+  topping:
+    romano_cheese:
+      quantity: 0.5
+      measurement: cup
+instructions:
+  - "Preheat oven 400°."
+  - "In a medium bowl, mix together the tomato sauce ingredients. Once combined, pour the sauce into a 9x13 baking dish."
+  - "In a large bowl, mix all meatloaf ingredients together until just combined. Do not overmix or the meatloaf will turn out tough. I use my hands to mix which makes it easier."
+  - "Form into a loaf and place into a baking dish on top of sauce. Spoon some sauce all over the top of the meatloaf. Sprinkle the top with the Romano cheese."
+  - "Bake for 1 hour. The sauce will be dark and thick."
+  - "Let cool for about 10 minutes before slicing. Slice and serve with sauce."
